@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<p><a class="btn btn-default" href="{% url 'Home_map_list' %}">Map Listing</a></p>
+
+
+
+
+
+<table class="table">
+<tr>
+    <td>Priority</td>
+    <td>LocName</td>
+</tr>
+{% for object in object_list %}
+<tr>
+    <!-- <td>{{object.pk}}</td> -->
+    <td>{{object}}</a></td>
+    <td><a href="{{object.get_absolute_url}}">{{ object.LocName }}</a></td>
+</tr>
+
+
+
+
+<head>
+Maps
+</head>
+
+<h2>Done</h2>
+
+{% endfor %}
+</table><a class="btn btn-primary" href="{% url 'Home_map_create' %}">Create new Map</a>
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
