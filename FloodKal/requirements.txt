@@ -7,7 +7,7 @@ cryptography==1.8.1
 cssselect==0.9.1
 DistributedLock==1.2
 dj-database-url==0.4.1
-Django==1.11.3
+Django==1.11.28
 django-annoying==0.10.3
 django-appconf==1.0.2
 django-bootstrap3==9.0.0
