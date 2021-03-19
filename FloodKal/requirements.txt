@@ -27,7 +27,7 @@ django-tag-parser==2.1
 django-taggit==0.22.1
 django-twitter-api==0.2.10
 -e git+https://github.com/michaelbrooks/django-twitter-stream.git@0b44f5e273b84ff93a2023ef504b334fe201232c#egg=django_twitter_stream
-djangorestframework==3.5.3
+djangorestframework==3.11.2
 dominate==2.1.17
 enum34==1.1.6
 feedfinder2==0.0.1
